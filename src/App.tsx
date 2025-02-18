@@ -1,9 +1,10 @@
 import './App.css'
+import { Button } from './components/ui/button'
 
 function App() {
 
   return (
-    <div className='text-2xl'>Hello World</div>
+    <Button>Hello World</Button>
   )
 }
 
